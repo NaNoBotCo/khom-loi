@@ -1,0 +1,195 @@
+{
+  "compiled": "2026-10-03",
+  "source": "Wikimedia Commons API (imageinfo/extmetadata); licences as stated on each file page at that date",
+  "notes": [
+    "CC BY-SA files need attribution + share-alike; CC BY needs attribution; CC0 and public domain need none (credit still courteous).",
+    "No Commons file found for daytime โคมควัน / ว่าวฮม (smoke lantern); searched ว่าวฮม, ว่าวควัน, khom khwan, smoke balloon Thailand."
+  ],
+  "pictures": [
+    {
+      "file_page": "https://commons.wikimedia.org/wiki/File:Khom_Loi.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Khom_Loi.jpg",
+      "author": "Lerdsuwa",
+      "licence": "CC BY-SA 3.0",
+      "date": "2006-06-09",
+      "width": 1200,
+      "height": 1600,
+      "description": "Khom loi seen from directly underneath after launch: open mouth, bamboo hoop and the burning fuel pad at the centre. Chiang Mai.",
+      "use": "physics: hot air enters at the mouth; flame at the centre"
+    },
+    {
+      "file_page": "https://commons.wikimedia.org/wiki/File:YI_PENG_LANTERN_FESTIVAL_THAILAND.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/YI_PENG_LANTERN_FESTIVAL_THAILAND.jpg",
+      "author": "DEBA PRASAD ROY",
+      "licence": "CC0",
+      "date": "2015-11-25 20:01:37",
+      "width": 4928,
+      "height": 3264,
+      "description": "Black-and-white close view of a khom loi held from below before release, flame and fuel pad visible inside the open mouth, Yi Peng 2015.",
+      "use": "physics: filling with hot air before lift-off"
+    },
+    {
+      "file_page": "https://commons.wikimedia.org/wiki/File:Linterna_de_bamb%C3%BA._(17219590790).jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Linterna_de_bamb%C3%BA._%2817219590790%29.jpg",
+      "author": "Carlos Adampol Galindo from DF, México",
+      "licence": "CC BY-SA 2.0",
+      "date": "2014-10-24 21:11",
+      "width": 1480,
+      "height": 1443,
+      "description": "Lantern overhead at the San Sai (Mae Jo) release (EXIF date 24 Oct 2014), bamboo ring and lit fuel visible from below.",
+      "use": "construction: bamboo hoop + fuel"
+    },
+    {
+      "file_page": "https://commons.wikimedia.org/wiki/File:Himmelslaterne_brandsatz.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Himmelslaterne_brandsatz.jpg",
+      "author": "Petermaerki",
+      "licence": "CC BY-SA 3.0",
+      "date": "2013-01-24 17:17:46",
+      "width": 1328,
+      "height": 872,
+      "description": "Close-up of a sky-lantern fuel pad (wax-soaked layered cloth/paper with cross wires). Not photographed in Thailand.",
+      "use": "construction: the fuel cell; label as a generic sky lantern"
+    },
+    {
+      "file_page": "https://commons.wikimedia.org/wiki/File:Yi_Peng_lanterns_in_Chiang_Mai_(11067469754).jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Yi_Peng_lanterns_in_Chiang_Mai_%2811067469754%29.jpg",
+      "author": "Nik Cyclist from Bangkok, Thailand",
+      "licence": "CC BY 2.0",
+      "date": "2013-11-16 19:58",
+      "width": 2000,
+      "height": 1334,
+      "description": "Crowd holding lit lanterns while they fill, Yi Peng, Chiang Mai, 16 Nov 2013.",
+      "use": "release moment"
+    },
+    {
+      "file_page": "https://commons.wikimedia.org/wiki/File:Tres..._dos..._uno..._(16786897943).jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Tres..._dos..._uno..._%2816786897943%29.jpg",
+      "author": "Carlos Adampol Galindo from DF, México",
+      "licence": "CC BY-SA 2.0",
+      "date": "2014-10-24 21:06",
+      "width": 1480,
+      "height": 950,
+      "description": "Mass release at the San Sai (Mae Jo) event, EXIF date 24 Oct 2014: hundreds of lanterns held up at the countdown.",
+      "use": "mass release, ground level"
+    },
+    {
+      "file_page": "https://commons.wikimedia.org/wiki/File:Yi_peng_sky_lantern_festival_San_Sai_Thailand.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Yi_peng_sky_lantern_festival_San_Sai_Thailand.jpg",
+      "author": "Takeaway",
+      "licence": "CC BY-SA 3.0",
+      "date": "2008-11-08",
+      "width": 1800,
+      "height": 1685,
+      "description": "Sky full of khom loi over the San Sai event, 8 Nov 2008.",
+      "use": "mass release, sky"
+    },
+    {
+      "file_page": "https://commons.wikimedia.org/wiki/File:Nong_Han,_San_Sai_District,_Chiang_Mai,_Thailand_-_panoramio.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Nong_Han%2C_San_Sai_District%2C_Chiang_Mai%2C_Thailand_-_panoramio.jpg",
+      "author": "Fumihiko Ueno",
+      "licence": "CC BY 3.0",
+      "date": "Taken on 24 November 2012",
+      "width": 5760,
+      "height": 3840,
+      "description": "Lanterns rising over the crowd at Nong Han, San Sai (Mae Jo area), 24 Nov 2012.",
+      "use": "mass release, wide"
+    },
+    {
+      "file_page": "https://commons.wikimedia.org/wiki/File:Chiang_Mai,_Yi_Peng_Festival_1.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Chiang_Mai%2C_Yi_Peng_Festival_1.jpg",
+      "author": "Sweetpig1970",
+      "licence": "Public domain",
+      "date": "2008-11-05",
+      "width": 682,
+      "height": 1047,
+      "description": "Two people releasing large khom loi with fireworks overhead, Chiang Mai, 5 Nov 2008. Public domain.",
+      "use": "release; public domain"
+    },
+    {
+      "file_page": "https://commons.wikimedia.org/wiki/File:El_festival_Yi_Peng_(17219367318).jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/El_festival_Yi_Peng_%2817219367318%29.jpg",
+      "author": "Carlos Adampol Galindo from DF, México",
+      "licence": "CC BY-SA 2.0",
+      "date": "2014-10-24 21:21",
+      "width": 2337,
+      "height": 1040,
+      "description": "Monks seated on a lit circular platform at the San Sai (Mae Jo) ceremony before the release (EXIF date 24 Oct 2014).",
+      "use": "ritual context"
+    },
+    {
+      "file_page": "https://commons.wikimedia.org/wiki/File:Thailand_2016_(219_of_422)_(31987951110).jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Thailand_2016_%28219_of_422%29_%2831987951110%29.jpg",
+      "author": "Weldon Kennedy from London, UK",
+      "licence": "CC BY 2.0",
+      "date": "2016-12-22 16:13",
+      "width": 3232,
+      "height": 2424,
+      "description": "Hand writing a wish on lantern paper before release, Thailand, Dec 2016.",
+      "use": "writing names/wishes on the lantern"
+    },
+    {
+      "file_page": "https://commons.wikimedia.org/wiki/File:Khom_Khwaen.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/22/Khom_Khwaen.jpg",
+      "author": "Lerdsuwa",
+      "licence": "CC BY-SA 3.0",
+      "date": "2006-06-09",
+      "width": 1200,
+      "height": 1600,
+      "description": "Khom khwaen (โคมแขวน) hanging from a pole in daylight, Chiang Mai, 2006.",
+      "use": "khom khwaen"
+    },
+    {
+      "file_page": "https://commons.wikimedia.org/wiki/File:%E0%B9%82%E0%B8%84%E0%B8%A1%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B8%B9%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B9%81%E0%B8%9E_%E0%B9%91_-_Hanging_lanterns_(khom_khwaen)_at_Tha_Phae_Gate_1.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/%E0%B9%82%E0%B8%84%E0%B8%A1%E0%B9%81%E0%B8%82%E0%B8%A7%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%95%E0%B8%B9%E0%B8%97%E0%B9%88%E0%B8%B2%E0%B9%81%E0%B8%9E_%E0%B9%91_-_Hanging_lanterns_%28khom_khwaen%29_at_Tha_Phae_Gate_1.jpg",
+      "author": "Random username 083794703875938",
+      "licence": "CC0",
+      "date": "2008-11-16 20:21:32",
+      "width": 3135,
+      "height": 2213,
+      "description": "Rows of lit khom khwaen at Tha Phae Gate, Chiang Mai, Yi Peng 2008. CC0.",
+      "use": "khom khwaen; CC0"
+    },
+    {
+      "file_page": "https://commons.wikimedia.org/wiki/File:Yi_Peng_festival.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Yi_Peng_festival.jpg",
+      "author": "ManoiCMU",
+      "licence": "CC BY-SA 4.0",
+      "date": "2025-11-05 18:07:34",
+      "width": 3024,
+      "height": 4032,
+      "description": "Tunnel of coloured khom khwaen at the CAD Khomloy event, 5 Nov 2025.",
+      "use": "khom khwaen, recent"
+    },
+    {
+      "file_page": "https://commons.wikimedia.org/wiki/File:Lanna_Lantern_in_Phayao_%E0%B9%82%E0%B8%84%E0%B8%A1%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B2_%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%81%E0%B8%A7%E0%B9%8A%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B0%E0%B9%80%E0%B8%A2%E0%B8%B2.jpg",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Lanna_Lantern_in_Phayao_%E0%B9%82%E0%B8%84%E0%B8%A1%E0%B8%A5%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%99%E0%B8%B2_%E0%B8%97%E0%B8%B5%E0%B9%88%E0%B8%81%E0%B8%A7%E0%B9%8A%E0%B8%B2%E0%B8%99%E0%B8%9E%E0%B8%B0%E0%B9%80%E0%B8%A2%E0%B8%B2.jpg",
+      "author": "Chainwit.",
+      "licence": "CC BY-SA 4.0",
+      "date": "2021-12-25",
+      "width": 4032,
+      "height": 3024,
+      "description": "Lanna-style hanging lanterns (โคมล้านนา) with tails, Kwan Phayao, 2021.",
+      "use": "Lanna lantern shapes"
+    }
+  ],
+  "videos": [
+    {
+      "file_page": "https://commons.wikimedia.org/wiki/File:Releasing_sky_lanterns_at_the_CAD_Khomloy_Sky_Lantern_Festival.webm",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Releasing_sky_lanterns_at_the_CAD_Khomloy_Sky_Lantern_Festival.webm",
+      "author": "ManoiCMU",
+      "licence": "CC BY 4.0",
+      "date": "2025-11-05",
+      "description": "Video (webm, 1080x1920): release at CAD Khomloy, 5 Nov 2025.",
+      "use": "video, optional"
+    },
+    {
+      "file_page": "https://commons.wikimedia.org/wiki/File:Mae_Jo_Loy_Krathong_2010.webm",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Mae_Jo_Loy_Krathong_2010.webm",
+      "author": "msg362 / Mike Griffiths",
+      "licence": "CC BY 3.0",
+      "date": "2010 (uploaded 2014-03-21)",
+      "description": "Video (webm, 1280x720): Mae Jo mass release, 2010.",
+      "use": "video, optional"
+    }
+  ]
+}

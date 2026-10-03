@@ -1,0 +1,13 @@
+{
+ "th": "โคมลอย วาดด้วยคณิต",
+ "en": "Khom Loi, Drawn",
+ "line_th": "โคมลอยยี่เป็งวาดด้วยฟิสิกส์ของอากาศร้อน ทำไมลอย หนึ่งเที่ยวบินตั้งแต่จุดไฟจนตก ลมพาโคมสี่สิบดวงไปตกที่ไหนในเชียงใหม่ และบนฟ้ามีกี่ดวงพร้อมกัน",
+ "line_en": "the Yi Peng sky lantern drawn with the physics of hot air: why it rises, one flight from lighting to landing, where the wind brings forty lanterns down over Chiang Mai, how many are up at once",
+ "icon": "i-lantern",
+ "shipped": "2026-10-03",
+ "season": ["10-01", "11-30"],
+ "group": "wat",
+ "where": "cm",
+ "served": "docs",
+ "words": ["khom loi", "khom fai", "sky lantern", "lantern", "lanterns", "yi peng", "yee peng", "loy krathong", "festival", "lantern festival", "release", "hot air", "airport", "flights", "โคมลอย", "โคมไฟ", "ยี่เป็ง", "ปล่อยโคม", "ลอยกระทง", "ประเพณียี่เป็ง", "ว่าวไฟ"]
+}
