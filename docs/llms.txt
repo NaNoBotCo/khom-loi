@@ -1,0 +1,80 @@
+# Khom Loi, Drawn · โคมลอย วาดด้วยคณิต
+
+Why a Yi Peng sky lantern rises, how high and how long it flies, and where the wind brings it down over Chiang Mai, drawn with the physics of hot air.
+
+English: https://motdang.net/sites/khom-loi/
+Thai: https://motdang.net/sites/khom-loi/th/
+
+## Paper, a hoop and a ball of fire
+
+A khom loi is a paper drum, closed at the top and open at the bottom, on a hoop of bamboo. Two wires cross the hoop and hold the fuel in the middle: paper or cloth soaked in wax or paraffin. A Lanna description calls the burning part the luk fai, ลูกไฟ, the ball of fire, and says it was once cast from khi ya and is now toilet paper soaked in candle wax.
+Thai provincial notices set the most it can be: 90 cm across, 140 cm tall, one cubic metre inside, natural materials, and at most 55 g of fuel burning for at most 8 minutes. Bigger than that, it counts as an aircraft. Chiang Mai uses the same limits.
+In Lanna the word is waao, ว่าว. Yi Peng had two kinds: waao hom, ว่าวฮม, filled with smoke and let go by day, and waao fai, ว่าวไฟ, which carries fire and goes up at night. The night one is what most people now call khom loi; the airport's notices call the day one โคมควัน, khom khwan, the smoke lantern.
+Yi Peng is the full moon of the second Lanna month, the same night as the full moon of the twelfth month in central Thailand, Loy Krathong. The government's public relations department writes that the lanterns honour Phra Ket Kaew Chulamani, the Buddha's hair relic in Tavatimsa heaven, and carry sorrow and bad luck away.
+
+## Hot air is thin air
+
+Air is tiny bits bumping around. Heat them and they bump harder and spread out, so the same space holds fewer of them. A lantern full of hot air holds less air, by weight, than the same space of cool night air.
+The lantern goes up when the night air it pushes aside weighs more than the hot air inside plus the paper, the hoop and the fuel. The difference is the lift.
+
+## Up while it burns, down when it cools
+
+Light the fuel and hold on. The air inside warms until the lantern tugs at your hands, and then you let go. It climbs while the fuel burns. When the fuel is gone the air inside cools in under a minute and the lantern comes down.
+
+## The wind decides
+
+A lantern has no steering. It goes where the air goes, and the air higher up moves faster than the air by the river. Here are forty lanterns from one place, each a little different. The big ticketed releases are out near Mae Jo in San Sai.
+
+## How many are up at once
+
+Let lanterns go at a steady rate and the sky fills, until the first ones start coming down. From then on the count holds: lanterns let go each minute times the minutes each one flies.
+Shops use the same sum, called Little's law: people in the shop = people coming in each minute × minutes each one stays.
+
+## Two nights, set hours
+
+The full moon is Tuesday 24 November 2026 at 21:53 Chiang Mai time. The Civil Aviation Authority's notice for Chiang Mai and Lamphun, published 23 July 2026, sets the hours for lanterns:
+
+## Dates
+
+- Tue 24 Nov · 10:00–12:00: daytime; in past years, the hours for smoke lanterns
+- Tue 24 Nov · 19:00–01:00: night lanterns
+- Wed 25 Nov · 19:00–01:00: night lanterns
+
+## Words
+
+- โคมลอย (khom loi): floating lantern, the night one that carries fire
+- ยี่เป็ง (yi peng): full moon of the second Lanna month
+- ว่าวไฟ (waao fai): Lanna: the fire lantern, let go at night
+- ว่าวฮม (waao hom): Lanna: the smoke lantern, let go by day
+- โคมควัน (khom khwan): smoke lantern, today's word for waao hom
+- ลูกไฟ (luk fai): the ball of fire: the fuel
+- เชื้อเพลิง (chuea phloeng): fuel, the word the notices use
+- ปล่อยโคม (ploi khom): to let a lantern go
+- โคมแขวน (khom khwaen): hanging lantern, stays on its pole
+- โคมผัด (khom phat): turning lantern, spun by its own flame's heat
+- ผางประทีป (phang prathip): small clay lamps lit for Yi Peng
+- พระเกศแก้วจุฬามณี (phra ket kaeo chulamani): the Buddha's hair relic in Tavatimsa heaven
+
+## Sources
+
+- Royal Gazette, Samut Sakhon province notice on lanterns (size and fuel limits), 14 Nov 2016: https://ratchakitcha.soc.go.th/documents/2089971.pdf
+- MGR Online, Chiang Mai lantern limits and banned districts, 18 Oct 2023: https://mgronline.com/local/detail/9660000094022
+- Civil Aviation Authority of Thailand, AIP SUP A 27/26, Chiang Mai lantern hours, 24–25 Nov 2026: https://aip.caat.or.th/2026-11-24/html/eSUP/VT-eSUP-26-27-A-en-GB.html
+- US Naval Observatory, moon phases 2026: https://aa.usno.navy.mil/api/moon/phases/year?year=2026
+- Wattanakasiwich, Kongkhumbod & Pussadee, Heating up a lantern with a tealight candle, Revista Mexicana de Física E 19, 2022 (Chiang Mai University): https://doi.org/10.31349/RevMexFisE.19.010206
+- Schuurman & Gransden, Sky Lantern Safety Flight Profile for Risk Assessment, AIAA 2017-3289 (TU Delft): https://repository.tudelft.nl/file/File_b7cf8f82-8735-4a86-acdd-2c99d78d77ee
+- TU Delft Aerospace Engineering, Fiery romance: a risk model for sky lanterns: https://www.tudelft.nl/en/ae/research/spotlight/fiery-romance-a-risk-model-for-sky-lanterns/
+- Payap University Library, ประเพณียี่เป็ง (Lanna custom sheet): https://library.payap.ac.th/webin/NTIC/Lanna%20custom/word/pd00012.pdf
+- กรมประชาสัมพันธ์ (Government Public Relations Department), ยี่เป็ง, 13 Jun 2026: https://www.prd.go.th/th/content/category/detail/id/31/iid/510215
+- ศิลปวัฒนธรรม, why Lanna's second month is central Thailand's twelfth, 11 Nov 2019: https://www.silpa-mag.com/culture/article_4146
+- Airports of Thailand, press release 89/2567 on lanterns and the Air Navigation Act, 11 Nov 2024: https://motwebservice.mot.go.th/motpublichearing/uploads/19-11-24_3439_89_2567%20AOT%20ย้ำเตือนอันตรายจากการปล่อยโคม.pdf
+- Thai PBS, Chiang Mai approves 62,000 lanterns, 12 Nov 2024: https://www.thaipbs.or.th/news/content/346239
+- Prachachat Turakij, Yi Peng 2025 figures, 23 Nov 2025: https://www.prachachat.net/economic/local-economy/news-1924154
+- Thansettakij, Chiang Mai airport flight changes for Yi Peng 2025, 1 Nov 2025: https://www.thansettakij.com/business/tourism/642928
+- The Nation via Asia News Network, 160 Chiang Mai flights cancelled or rescheduled, 24 Nov 2023: https://asianews.network/160-chiang-mai-flights-cancelled-or-rescheduled-to-avoid-flaming-lanterns
+- Matichon, lanterns collected inside Chiang Mai airport 2013–2015, 9 Nov 2016: https://www.matichon.co.th/local/news_354114
+- OpenStreetMap contributors (ODbL), map data via Protomaps: https://www.openstreetmap.org/copyright
+
+## Licence
+
+Text CC BY 4.0, NaNoBotCo. Code MIT. Map: OpenStreetMap contributors, ODbL. Photographs keep their own licences, listed on the page.

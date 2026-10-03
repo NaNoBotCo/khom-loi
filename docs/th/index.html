@@ -1,0 +1,190 @@
+<!doctype html><html lang="th" translate="no" class="notranslate"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="google" content="notranslate">
+<script>if(/[.]translate[.]goog$/.test(location.hostname))location.replace("https://"+location.hostname.slice(0,-15).replace(/--/g,"~").replace(/-/g,".").replace(/~/g,"-")+location.pathname+location.search.replace(/([?&])_x_tr_[^&]*/g,"$1").replace(/[?&]+$/,"").replace(/[?]&+/,"?")+location.hash)</script>
+<title>โคมลอย วาดด้วยคณิต · Khom Loi, Drawn</title>
+<meta name="description" content="ทำไมโคมลอยยี่เป็งถึงลอยขึ้น ลอยได้สูงแค่ไหน นานเท่าไร และลมพาไปตกที่ไหนในเชียงใหม่ วาดด้วยฟิสิกส์ของอากาศร้อน">
+<meta name="theme-color" content="#0e1030">
+<link rel="canonical" href="https://motdang.net/sites/khom-loi/th/">
+<link rel="alternate" hreflang="en" href="https://motdang.net/sites/khom-loi/"><link rel="alternate" hreflang="th" href="https://motdang.net/sites/khom-loi/th/"><link rel="alternate" hreflang="x-default" href="https://motdang.net/sites/khom-loi/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Khom Loi, Drawn · โคมลอย วาดด้วยคณิต">
+<meta property="og:title" content="โคมลอย วาดด้วยคณิต"><meta property="og:description" content="ทำไมโคมลอยยี่เป็งถึงลอยขึ้น ลอยได้สูงแค่ไหน นานเท่าไร และลมพาไปตกที่ไหนในเชียงใหม่ วาดด้วยฟิสิกส์ของอากาศร้อน"><meta property="og:url" content="https://motdang.net/sites/khom-loi/th/">
+<meta property="og:image" content="https://motdang.net/sites/khom-loi/card.jpg"><meta property="og:image:secure_url" content="https://motdang.net/sites/khom-loi/card.jpg"><meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="โคมลอยลอยขึ้นเหนือแม่น้ำปิงใต้พระจันทร์เต็มดวง วาดด้วยคณิต">
+<meta property="og:locale" content="th_TH"><meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://motdang.net/sites/khom-loi/card.jpg">
+<link rel="icon" href="../icon.svg" type="image/svg+xml">
+<link rel="alternate" type="text/plain" href="https://motdang.net/sites/khom-loi/llms.txt" title="llms.txt">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Noto+Sans+Thai:wght@400;600;700&family=Noto+Serif+Thai:wght@600;700&display=swap" rel="stylesheet">
+<script>if(/[?&]card/.test(location.search))document.documentElement.classList.add("card")</script>
+<style>:root{--cave:#0e1030;--rock:#241a52;--rock2:#2f2266;--ink:#fbf3ff;--dim:#cbbfe6;--lamp:#ffb347;--water:#7cc8ff;--deep:#7a1f17;--line:#9be38c;--paper:#fff6ea;--pink:#ff8f7a;--pinkd:#c4402a;--text:#22183a;--mute:#6a5a48;--rule:#e2d4b8}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--text);font:17px/1.6 "Noto Sans Thai",system-ui,-apple-system,"Segoe UI",sans-serif}
+html[lang=th] body{font-size:18px;line-height:1.75}
+a{color:#9a3d00}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+h1,h2,h3{font-family:Fraunces,"Noto Serif Thai",Georgia,serif;font-weight:700;line-height:1.15;margin:0 0 .4em}
+html[lang=th] h1,html[lang=th] h2,html[lang=th] h3{font-family:"Noto Serif Thai",Fraunces,serif;line-height:1.35}
+h2{font-size:clamp(28px,4.6vw,46px)}
+h3{font-size:22px}
+.in{max-width:1080px;margin:0 auto;padding:0 16px}
+.kick{font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin:0 0 .5em;font-weight:600}
+html[lang=th] .kick{text-transform:none;letter-spacing:0}
+.intro{font-size:19px;max-width:44em}
+.sec{padding:72px 0}
+.sec p{max-width:44em}
+.dark{background:var(--cave);color:var(--ink)}
+.dark a{color:var(--lamp)}
+.dark .kick{color:var(--dim)}
+.rock{background:var(--rock);color:var(--ink)}
+.rock a{color:var(--lamp)}
+.rock .kick{color:var(--dim)}
+canvas{display:block;width:100%;touch-action:pan-y}
+.cv{border-radius:14px;background:#0e1030}
+.note{font-size:14px;color:var(--mute);margin-top:.6em}
+.dark .note,.rock .note{color:var(--dim)}
+/* top bar */
+header.top{position:sticky;top:0;z-index:20;background:rgba(14,16,48,.92);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);color:var(--ink);transition:transform .25s}
+header.top .in{display:flex;align-items:center;gap:14px;min-height:52px;max-width:1240px}
+.brand{display:flex;align-items:center;gap:8px;color:var(--ink);text-decoration:none;font-weight:700;white-space:nowrap}
+.brand svg{width:28px;height:28px}
+header.top nav{display:flex;gap:14px;overflow-x:auto;scrollbar-width:none;flex:1;font-size:15px}
+header.top nav::-webkit-scrollbar{display:none}
+header.top nav a{color:var(--dim);text-decoration:none;white-space:nowrap;padding:6px 0}
+header.top nav a:hover{color:var(--lamp)}
+.lang{white-space:nowrap;font-size:15px;color:var(--dim)}
+.lang a{color:var(--lamp)}
+body.nav-away header.top{transform:translateY(-100%)}
+@media (max-width:720px){.brand span{display:none}}
+/* hero */
+.hero{position:relative;background:var(--cave);color:var(--ink);overflow:hidden}
+.hero canvas{height:min(78vh,720px);min-height:460px}
+.hero-t{position:absolute;left:0;right:0;top:0;padding:28px 16px 0;max-width:1080px;margin:0 auto;pointer-events:none}
+.hero-t h1{font-size:clamp(38px,7.4vw,86px);margin:0;text-shadow:0 2px 18px rgba(0,0,0,.6)}
+.hero-t .kick{color:#ffe0b8;text-shadow:0 1px 8px #000}
+.hero-t .lede{font-size:clamp(17px,2.2vw,21px);max-width:30em;text-shadow:0 1px 10px #000;margin:.4em 0 0}
+.tbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;padding:12px 16px 18px;max-width:1080px;margin:0 auto}
+.tbar input[type=range]{flex:1 1 280px;accent-color:var(--lamp);min-height:32px}
+.tdate{font-weight:700;min-width:9em;font-variant-numeric:tabular-nums}
+.tev{flex:1 1 100%;margin:0;min-height:3.4em;color:#e9e3d4;font-size:17px;max-width:46em}
+.pill{font:inherit;font-size:15px;border:1.5px solid currentColor;background:transparent;color:inherit;border-radius:999px;padding:6px 14px;cursor:pointer;min-height:36px}
+.pill.hot{background:var(--lamp);color:#2a1300;border-color:var(--lamp);font-weight:700}
+.pill[aria-pressed=true]{background:var(--ink);color:var(--cave)}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+html.card header.top,html.card .tbar,html.card main>section:not(.hero),html.card footer{display:none}
+html.card .hero canvas{height:100vh;min-height:0}
+html.card .hero-t{padding-top:46px;padding-left:56px;max-width:none}
+html.card .hero-t h1{font-size:96px}
+.ph{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin-top:20px}
+.ph figure{margin:0}
+.ph img{width:100%;height:auto;border-radius:10px;display:block;background:#ddd}
+.ph figcaption{font-size:14px;color:var(--mute);margin-top:6px;line-height:1.5}
+.dark .ph figcaption,.rock .ph figcaption{color:var(--dim)}
+.src{font-size:15px;padding-left:1.2em}
+.src li{margin:.3em 0}
+footer.bot{background:var(--cave);color:var(--dim);padding:28px 0;font-size:14px}
+footer.bot a{color:var(--lamp)}
+.math{font-family:"STIX Two Math","Cambria Math",Georgia,serif;font-size:1.15em;background:rgba(255,179,71,.14);border-radius:6px;padding:1px 7px;white-space:nowrap}
+.dark .math,.rock .math{background:rgba(255,179,71,.16);color:#ffd9a8}
+.seg{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.seg .pill{font-size:14px;padding:5px 12px;min-height:34px}
+.seg .pill[aria-pressed=true]{background:var(--lamp);color:#2a1300;border-color:var(--lamp)}
+.fz{margin-top:8px}
+.fz b{font-size:19px;color:var(--lamp)}
+.fz p{margin:.2em 0 0}
+.steps{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+.steps .pill{min-width:40px}
+.steptext{min-height:4.8em;margin:.4em 0 0}
+.glos{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px;margin-top:20px}
+.glos div{background:#fffaf3;border:1px solid var(--rule);border-radius:12px;padding:12px 14px}
+.glos b{display:block;font-size:20px;font-family:"Noto Serif Thai",Fraunces,serif}
+.glos i{font-style:normal;color:var(--mute);font-size:14px}
+.glos p{margin:.3em 0 0;font-size:15px}
+#owncv{cursor:crosshair;touch-action:none}
+.cv{background:#0e1030}
+.hero{background:#0e1030}
+.lede-wrap{max-width:46em}
+html.card .cardline{display:block}
+.cardline{display:none;font-size:22px;color:#ffe0b8;margin-top:16px;text-shadow:0 1px 8px #000}
+.cardline span{font-size:18px;color:var(--lamp)}
+.two{display:grid;grid-template-columns:1.1fr 1fr;gap:36px;align-items:center}
+@media (max-width:860px){.two{grid-template-columns:1fr}}
+.readout{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:14px 0}
+.readout div{background:rgba(255,255,255,.06);border-radius:10px;padding:10px 12px}
+.sec:not(.dark):not(.rock) .readout div{background:#ffe9cf}
+.readout span{display:block;font-size:13px;color:var(--dim)}
+.sec:not(.dark):not(.rock) .readout span{color:var(--mute)}
+.readout b{font-size:22px;font-variant-numeric:tabular-nums}
+input[type=range]{width:100%;accent-color:var(--lamp);min-height:32px}
+label.lab{display:block;font-size:15px;margin-top:10px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.ph img{max-height:560px;object-fit:contain;background:transparent}
+html.card .lede{display:none}
+.warn{background:#ffe1dc;color:#7a1408;border-radius:10px;padding:10px 14px;margin:12px 0;font-weight:600}
+.dark .warn,.rock .warn{background:rgba(255,120,100,.18);color:#ffd2c8}
+.eq{font-family:"STIX Two Math","Cambria Math",Georgia,serif;font-size:1.25em;margin:.6em 0;padding:10px 14px;border-radius:10px;background:rgba(255,255,255,.07);display:inline-block}
+.sec:not(.dark):not(.rock) .eq{background:#fff;border:1px solid var(--rule)}
+.dates{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:18px 0}
+.dates div{background:#fff;border:1px solid var(--rule);border-radius:12px;padding:12px 14px}
+.dark .dates div,.rock .dates div{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.12)}
+.dates b{display:block;font-size:19px}
+.dates span{font-size:14px;color:var(--mute)}
+.dark .dates span,.rock .dates span{color:var(--dim)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:14px;margin:8px 0}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.roman{color:var(--mute);font-style:normal;font-size:.9em}
+.dark .roman,.rock .roman{color:var(--dim)}
+.sib{display:flex;gap:14px;align-items:center;background:#fff;border:1px solid var(--rule);border-radius:14px;padding:14px 16px;margin-top:22px;text-decoration:none;color:inherit;max-width:44em}
+.sib b{display:block;font-size:19px}
+.sib:hover{border-color:var(--lamp)}
+.hero-t .hint{font-size:15px;opacity:.85;margin-top:.6em;text-shadow:0 1px 8px #000}
+html.card .hint{display:none}
+</style>
+</head><body>
+<header class="top"><div class="in"><a class="brand" href="#top"><img src="../icon.svg" width="28" height="28" alt=""><span>โคมลอย วาดด้วยคณิต</span></a>
+<nav aria-label="หัวข้อ"><a href="#what">โคมลอยคืออะไร</a><a href="#lift">ทำไมลอย</a><a href="#flight">หนึ่งเที่ยวบิน</a><a href="#drift">ไปตกที่ไหน</a><a href="#sky">กี่ดวง</a><a href="#yipeng">ยี่เป็ง 2569</a><a href="#words">คำศัพท์</a><a href="#sources">ที่มา</a></nav>
+<span class="lang"><b>ไทย</b> | <a href="../" hreflang="en">EN</a></span></div></header>
+<main><section id="top" class="hero"><canvas id="scene" role="img" aria-label="ท้องฟ้ากลางคืนเหนือเชียงใหม่ มีโคมลอยลอยขึ้น ทุกดวงลอยตามฟิสิกส์ในหน้านี้"></canvas>
+<div class="hero-t"><p class="kick">ยี่เป็ง · เชียงใหม่</p><h1>โคมลอย วาดด้วยคณิต</h1><p class="lede">กระดาษ โครงไม้ไผ่ เชื้อเพลิงหนึ่งก้อน กับไฟนิดเดียว ทำไมมันลอยขึ้น ขึ้นได้สูงแค่ไหน นานเท่าไร แล้วไปตกที่ไหน โคมทุกดวงในหน้านี้ลอยด้วยสูตรเดียวกัน</p><p class="hint">แตะท้องฟ้าเพื่อปล่อยโคม</p><p class="cardline">ทำไมลอย ลอยสูงแค่ไหน ไปตกที่ไหน<br><span>motdang.net/sites/khom-loi</span></p></div></section>
+<section id="what" class="sec"><div class="in"><p class="kick">โคมลอยคืออะไร</p><h2>กระดาษ ห่วงไม้ไผ่ และลูกไฟ</h2><p>โคมลอยคือกระดาษทรงกระบอก ปิดด้านบน เปิดด้านล่าง ติดอยู่กับห่วงไม้ไผ่ มีลวดสองเส้นขึงไขว้กลางห่วง แขวนเชื้อเพลิงไว้ตรงกลาง คือกระดาษหรือผ้าชุบขี้ผึ้งหรือพาราฟิน ตำราล้านนาเรียกส่วนที่ไหม้ว่า ลูกไฟ เล่าว่าแต่ก่อนหล่อจากขี้ย้า ปัจจุบันนิยมใช้กระดาษชำระชุบขี้ผึ้งเทียน</p><p>ประกาศจังหวัดกำหนดขนาดไว้ กว้างไม่เกิน 90 ซม. สูงไม่เกิน 140 ซม. ปริมาตรข้างในไม่เกิน 1 ลูกบาศก์เมตร ทำจากวัสดุธรรมชาติ เชื้อเพลิงไม่เกิน 55 กรัม ไหม้ไม่เกิน 8 นาที ใหญ่กว่านี้นับเป็นอากาศยาน เชียงใหม่ใช้เกณฑ์เดียวกัน</p><p>ภาษาล้านนาเรียกว่า ว่าว ยี่เป็งมีสองแบบ ว่าวฮม อัดควันแล้วปล่อยตอนกลางวัน กับ ว่าวไฟ มีไฟติดไปด้วย ปล่อยตอนกลางคืน แบบกลางคืนคือที่คนส่วนใหญ่ตอนนี้เรียกว่าโคมลอย ส่วนประกาศของสนามบินเรียกแบบกลางวันว่า โคมควัน</p><p>ยี่เป็งคือวันเพ็ญเดือนยี่ของล้านนา ตรงกับวันเพ็ญเดือนสิบสองของภาคกลาง คือคืนลอยกระทง กรมประชาสัมพันธ์เขียนไว้ว่า การปล่อยโคมเป็นการบูชาพระเกศแก้วจุฬามณีบนสวรรค์ชั้นดาวดึงส์ และปล่อยความทุกข์และเคราะห์ร้ายให้ลอยไป</p></div></section>
+<section id="lift" class="sec dark"><div class="in two"><div><canvas id="liftcv" class="cv" role="img" aria-label="อากาศร้อนคืออากาศที่บาง"></canvas>
+<p class="legend"><span><i style="background:#96c8ff"></i>อากาศกลางคืน</span><span><i style="background:#ffbe6e"></i>อากาศร้อนข้างใน</span></p></div>
+<div><p class="kick">ทำไมลอย</p><h2>อากาศร้อนคืออากาศที่บาง</h2><p>อากาศคือเม็ดเล็ก ๆ ที่วิ่งชนกันไปมา พอร้อนขึ้นก็วิ่งแรงขึ้นและถอยห่างกัน ที่เท่าเดิมเลยมีอากาศน้อยลง โคมที่เต็มไปด้วยอากาศร้อนจึงเบากว่าอากาศเย็นตอนกลางคืนในที่เท่ากัน</p><p>โคมจะลอยขึ้นเมื่ออากาศกลางคืนที่มันเบียดออกไปหนักกว่าอากาศร้อนข้างใน บวกกระดาษ โครง และเชื้อเพลิง ส่วนที่เหลือคือแรงยก</p>
+<p class="eq">แรงยก = V × (ρ<sub>กลางคืน</sub> − ρ<sub>ข้างใน</sub>) &nbsp;&nbsp; ρ = p ÷ (R × T)</p>
+<label class="lab" for="ti">ข้างในโคม <b id="tio"></b></label><input id="ti" type="range" min="30" max="280" step="1" value="140"><label class="lab" for="ta">อากาศกลางคืน <b id="tao"></b></label><input id="ta" type="range" min="5" max="38" step="1" value="22"><label class="lab" for="lh">ความสูงของโคม <b id="lho"></b></label><input id="lh" type="range" min="50" max="180" step="1" value="100">
+<div class="readout"><div><span>แรงยก</span><b id="rlift">–</b></div><div><span>น้ำหนัก</span><b id="rweight">–</b></div><div><span>อากาศ กก. ต่อ ลบ.ม. (ข้างนอก / ข้างใน)</span><b id="rrho">–</b></div></div>
+<p><b id="rnet"></b></p><p id="hotwarn" class="warn" hidden>ร้อนเกินราว 230 °C กระดาษเริ่มไหม้เกรียม ในการทดลองของ TU Delft ยอดโคมดวงหนึ่งติดไฟหลังจุด 105 วินาที ทั้งที่เชื้อเพลิงยังไหม้อยู่</p>
+<p class="note">โคมที่วาดตรงนี้เป็นทรงกระบอกกระดาษ ปากกว้าง 62% ของความสูง ด้านบนกว้างกว่านิดหน่อย กระดาษ 22 กรัมต่อตารางเมตร โครง 12 กรัม เชื้อเพลิง 30 กรัม ค่า T ในสูตรเป็นเคลวิน คือ °C + 273 ค่า p คือ 96.5 กิโลปาสคาล ความดันอากาศที่ห้องแล็บฟิสิกส์ มหาวิทยาลัยเชียงใหม่วัดได้ R คือ 287 J/(kg·K) ของอากาศ ห้องแล็บนั้นทำให้โคมหนัก 28.7 กรัม ปริมาตร 0.159 ลบ.ม. ลอยด้วยเทียนทีไลท์ในปี 2565 สูตรเดียวกันบอกว่าต้องร้อนข้างใน 85.6 °C ที่อุณหภูมิห้อง 27.65 °C ทีมวิจัยคำนวณได้ 85.8 °C และวัดด้วยกล้องอินฟราเรดได้ 95.0 °C</p></div></div></section>
+<section id="flight" class="sec"><div class="in"><p class="kick">หนึ่งเที่ยวบิน</p><h2>ขึ้นตอนไฟติด ลงตอนอากาศเย็น</h2><p>จุดเชื้อเพลิงแล้วจับไว้ อากาศข้างในร้อนขึ้นจนโคมดึงมือ แล้วค่อยปล่อย มันลอยขึ้นไปตลอดเวลาที่ไฟยังไหม้ พอเชื้อเพลิงหมด อากาศข้างในเย็นลงในไม่ถึงนาที แล้วโคมก็ตกลงมา</p>
+<canvas id="flightcv" class="cv" role="img" aria-label="ขึ้นตอนไฟติด ลงตอนอากาศเย็น"></canvas>
+<p class="legend"><span><i style="background:#8fd3ff"></i>ความสูง</span><span><i style="background:#ffb347"></i>อุณหภูมิข้างใน</span><span><i style="background:rgba(255,200,120,.5)"></i>ช่วงไฟติด</span></p>
+<div class="readout" style="grid-template-columns:repeat(auto-fit,minmax(200px,1fr))"><div><label class="lab" for="ff">เชื้อเพลิง <b id="ffo"></b></label><input id="ff" type="range" min="5" max="55" step="1" value="30"></div><div><label class="lab" for="fh">ความสูงของโคม <b id="fho"></b></label><input id="fh" type="range" min="60" max="160" step="1" value="100"></div><div><label class="lab" for="fg">กระดาษ <b id="fgo"></b></label><input id="fg" type="range" min="12" max="45" step="1" value="22"></div><div><label class="lab" for="fta">อากาศกลางคืน <b id="ftao"></b></label><input id="fta" type="range" min="5" max="38" step="1" value="22"></div></div>
+<div class="readout"><div><span>ต้องจับไว้</span><b id="fhold">–</b></div><div><span>สูงสุด</span><b id="ftop">–</b></div><div><span>อยู่บนฟ้า</span><b id="faloft">–</b></div><div><span>ข้างในร้อนสุด</span><b id="fhot">–</b></div></div>
+<p>ทุก ๆ เสี้ยววินาที หน้านี้คิดสี่อย่าง เชื้อเพลิงไหม้ไปเท่าไร ความร้อนอยู่ข้างในเท่าไร อากาศดันขึ้นแรงแค่ไหน และโคมเคลื่อนเร็วแค่ไหนเมื่อมีแรงต้านของอากาศ เชื้อเพลิงสองเท่า ลอยได้นานราวสองเท่า โคมเล็กที่ใช้ไฟเท่ากัน ข้างในจะร้อนกว่า</p><p class="note">เที่ยวบินนี้เป็นแบบจำลองของหน้านี้เอง ทำแบบเดียวกับแบบจำลองโคมลอยของ TU Delft ปี 2560 แรงยกจากความหนาแน่นอากาศที่ต่างกัน อากาศบางลงตามความสูง เชื้อเพลิงไหม้ในอัตราคงที่ แล้วตกลงด้วยความเร็วที่แรงต้านอากาศเท่ากับน้ำหนัก อัตราไหม้มาจากเวลาที่ TU Delft จับได้ (100–330 วินาที) และเกณฑ์ตามกฎหมาย 55 กรัม 8 นาที ส่วนความร้อนที่เก็บไว้ข้างในและที่หายไปทางกระดาษเป็นค่าที่ตั้งเอง เทียบดู ผู้ตรวจของเนเธอร์แลนด์ดูโคม 10 ดวงในปี 2552 ลอยอยู่ 2–5 นาที สูง 50–300 เมตร ตกห่างออกไป 633–1,900 เมตร</p></div></section>
+<section id="drift" class="sec rock"><div class="in"><p class="kick">ไปตกที่ไหน</p><h2>ลมเป็นคนเลือก</h2><p>โคมลอยไม่มีพวงมาลัย ลมไปทางไหนมันก็ไปทางนั้น และลมข้างบนพัดแรงกว่าลมริมน้ำ นี่คือโคมสี่สิบดวงจากที่เดียวกัน แต่ละดวงต่างกันนิดหน่อย งานปล่อยโคมใหญ่ที่ขายบัตรอยู่แถวแม่โจ้ สันทราย</p>
+<div class="seg" role="group" aria-label="ปล่อยจาก"><button class="pill" type="button" data-site="0" aria-pressed="true">ประตูท่าแพ</button><button class="pill" type="button" data-site="1" aria-pressed="false">ใกล้แม่โจ้ สันทราย</button></div>
+<canvas id="driftcv" class="cv" data-map="../map.json" role="img" aria-label="ลมเป็นคนเลือก"></canvas>
+<p class="legend"><span><i style="background:#7a3d12"></i>ตกบนพื้น</span><span><i style="background:#1f6fb5"></i>ตกในน้ำ</span><span><i style="background:#c0262d"></i>ตกในสนามบิน</span></p>
+<div class="readout" style="grid-template-columns:repeat(auto-fit,minmax(220px,1fr))"><div><label class="lab" for="wd">ลมพัดมาจาก <b id="wdo"></b></label><input id="wd" type="range" min="0" max="359" step="1" value="45"></div><div><label class="lab" for="ws">ลมใกล้พื้น <b id="wso"></b></label><input id="ws" type="range" min="0" max="60" step="1" value="20"></div></div>
+<div class="btns"><button id="dgo" class="pill hot" type="button">ปล่อย 40 ดวง</button></div>
+<div class="readout"><div><span>ครึ่งหนึ่งตกภายใน</span><b id="dmed">–</b></div><div><span>ไกลสุด</span><b id="dfar">–</b></div><div><span>ตกในสนามบิน</span><b id="dair">–</b></div><div><span>ตกในน้ำ</span><b id="dwat">–</b></div></div>
+<p>ช่วงลอยกระทง ห้ามปล่อยโคมทั้งอำเภอเมืองเชียงใหม่และหางดง และบางตำบลในสารภี สันทราย แม่ริม สันป่าตอง รวม 39 ตำบลใน 6 อำเภอ ที่ใส่ประตูท่าแพไว้ในแผนที่ก็เพื่อให้เห็นว่าทำไม รันเวย์อยู่ห่างไป 3.3 กม. เป็นเส้นตรง แค่ลมเบา ๆ จากทิศตะวันออก กับโคมที่ลอยอยู่ไม่กี่นาที ก็ไปถึง</p><p>สนามบินนับโคมที่ตกในรั้วสนามบินไว้ ปี 2556 มี 1,425 ดวง ปี 2557 มี 142 ดวง ปี 2558 มี 59 ดวง</p><p class="note">แผนที่: OpenStreetMap contributors (ODbL) ลมแรงขึ้นตามความสูงแบบ (ความสูง ÷ 10 ม.)<sup>0.25</sup> ซึ่งเป็นรูปแบบปกติของคืนที่ลมสงบ โคมแต่ละดวงมีขนาด เชื้อเพลิง และลมกระโชกของตัวเอง ทิศลมเบี่ยงได้ถึง 20° จากที่ตั้งไว้</p></div></section>
+<section id="sky" class="sec dark"><div class="in two"><div><canvas id="skycv" class="cv" role="img" aria-label="บนฟ้ามีกี่ดวงพร้อมกัน"></canvas></div>
+<div><p class="kick">โคมพันดวง</p><h2>บนฟ้ามีกี่ดวงพร้อมกัน</h2><p>ถ้าปล่อยโคมทีละนิดอย่างสม่ำเสมอ ท้องฟ้าจะค่อย ๆ เต็ม จนดวงแรก ๆ เริ่มตกลงมา จากนั้นจำนวนบนฟ้าจะคงที่ คือ จำนวนที่ปล่อยต่อนาที คูณ จำนวนนาทีที่แต่ละดวงลอยอยู่</p><p>ร้านค้าใช้สูตรเดียวกัน เรียกว่ากฎของลิตเติล คนในร้าน = คนเข้าร้านต่อนาที × นาทีที่แต่ละคนอยู่ในร้าน</p>
+<p class="eq">บนฟ้าพร้อมกัน = λ × W</p>
+<label class="lab" for="lam">ปล่อยโคม <b id="lamo"></b></label><input id="lam" type="range" min="1" max="200" step="1" value="40"><label class="lab" for="lmin">นาน <b id="lmino"></b></label><input id="lmin" type="range" min="5" max="90" step="1" value="30">
+<div class="readout"><div><span>แต่ละดวงลอย (W)</span><b id="lw">–</b></div><div><span>บนฟ้ามากสุด</span><b id="lpeak">–</b></div><div><span>ปล่อยทั้งหมด</span><b id="ltotal">–</b></div></div>
+<p class="note">ค่า W มาจากแบบจำลองหนึ่งเที่ยวบินข้างบน โคมสูง 1 เมตร เชื้อเพลิง 30 กรัม</p></div></div></section>
+<section id="yipeng" class="sec"><div class="in"><p class="kick">ยี่เป็ง 2569</p><h2>สองคืน มีเวลากำหนด</h2><p>พระจันทร์เต็มดวงวันอังคารที่ 24 พฤศจิกายน 2569 เวลา 21:53 น. ประกาศของสำนักงานการบินพลเรือนแห่งประเทศไทยสำหรับเชียงใหม่และลำพูน ออกเมื่อ 23 กรกฎาคม 2569 กำหนดเวลาปล่อยโคมไว้ดังนี้</p>
+<div class="dates"><div><b>อ. 24 พ.ย. · 10:00–12:00</b><span>ช่วงกลางวัน ปีก่อน ๆ เป็นเวลาปล่อยโคมควัน</span></div><div><b>อ. 24 พ.ย. · 19:00–01:00</b><span>โคมลอยกลางคืน</span></div><div><b>พ. 25 พ.ย. · 19:00–01:00</b><span>โคมลอยกลางคืน</span></div></div><p>ในช่วงเวลานี้สนามบินเชียงใหม่งดบิน ปี 2568 ยกเลิก 65 เที่ยว เลื่อนเวลา 96 เที่ยว ในสองคืน ปี 2566 ยกเลิก 101 เที่ยว เลื่อน 59 เที่ยว</p><p>จะปล่อยโคมต้องขออนุญาตนายอำเภอล่วงหน้าอย่างน้อย 30 วัน ปี 2567 เชียงใหม่อนุญาตราว 62,000 ดวง ปี 2568 มีคนขอ 92,313 ดวง ปล่อยใกล้สนามบินผิดพระราชบัญญัติการเดินอากาศ โทษจำคุกถึง 5 ปี ปรับถึง 200,000 บาท</p><p>ถึงวันที่ 3 ตุลาคม 2569 จังหวัดเชียงใหม่ยังไม่ออกประกาศของปีนี้ ปีก่อน ๆ ออกในเดือนตุลาคมหรือพฤศจิกายน</p>
+<a class="sib" href="https://motdang.net/sites/krathong/th/"><img src="https://motdang.net/sites/krathong/icon.svg" width="48" height="48" alt=""><span><b>กระทง วาดด้วยคณิต</b> คืนเดียวกันบนแม่น้ำ พับใบตอง ลอยน้ำ และกระแสน้ำพาไปไหน</span></a></div></section>
+<section id="pictures" class="sec rock"><div class="in"><p class="kick">ภาพ</p><h2>โคมลอยกับคนปล่อยโคม</h2><div class="ph"><figure><img loading="lazy" src="../img/01-from-underneath.jpg" width="900" height="1200" alt="มองจากข้างใต้ ปากโคม ห่วงไม้ไผ่ และเชื้อเพลิงที่ลุกอยู่ตรงกลาง เชียงใหม่ 2549"><figcaption>มองจากข้างใต้ ปากโคม ห่วงไม้ไผ่ และเชื้อเพลิงที่ลุกอยู่ตรงกลาง เชียงใหม่ 2549 <a href="https://commons.wikimedia.org/wiki/File:Khom_Loi.jpg">Lerdsuwa</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></figcaption></figure><figure><img loading="lazy" src="../img/02-held-before-release.jpg" width="1200" height="795" alt="จับไว้จากข้างล่างระหว่างรออากาศข้างในร้อน 2558"><figcaption>จับไว้จากข้างล่างระหว่างรออากาศข้างในร้อน 2558 <a href="https://commons.wikimedia.org/wiki/File:YI_PENG_LANTERN_FESTIVAL_THAILAND.jpg">DEBA PRASAD ROY</a> · <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a></figcaption></figure><figure><img loading="lazy" src="../img/03-fuel-pad.jpg" width="1200" height="788" alt="เชื้อเพลิง แผ่นซ้อนกันชุบขี้ผึ้ง แขวนด้วยลวดไขว้ ภาพนี้ถ่ายนอกประเทศไทย"><figcaption>เชื้อเพลิง แผ่นซ้อนกันชุบขี้ผึ้ง แขวนด้วยลวดไขว้ ภาพนี้ถ่ายนอกประเทศไทย <a href="https://commons.wikimedia.org/wiki/File:Himmelslaterne_brandsatz.jpg">Petermaerki</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></figcaption></figure><figure><img loading="lazy" src="../img/04-filling.jpg" width="1200" height="801" alt="จับโคมที่จุดไฟแล้วรอให้อากาศร้อนเต็ม ยี่เป็งเชียงใหม่ 2556"><figcaption>จับโคมที่จุดไฟแล้วรอให้อากาศร้อนเต็ม ยี่เป็งเชียงใหม่ 2556 <a href="https://commons.wikimedia.org/wiki/File:Yi_Peng_lanterns_in_Chiang_Mai_(11067469754).jpg">Nik Cyclist from Bangkok, Thailand</a> · <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a></figcaption></figure><figure><img loading="lazy" src="../img/05-mass-release-san-sai.jpg" width="1200" height="771" alt="ปล่อยโคมพร้อมกันที่สันทราย ใกล้แม่โจ้ 2557"><figcaption>ปล่อยโคมพร้อมกันที่สันทราย ใกล้แม่โจ้ 2557 <a href="https://commons.wikimedia.org/wiki/File:Tres..._dos..._uno..._(16786897943).jpg">Carlos Adampol Galindo from DF, México</a> · <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a></figcaption></figure><figure><img loading="lazy" src="../img/06-nong-han.jpg" width="1200" height="800" alt="โคมลอยขึ้นเหนือหนองหาร สันทราย 2555"><figcaption>โคมลอยขึ้นเหนือหนองหาร สันทราย 2555 <a href="https://commons.wikimedia.org/wiki/File:Nong_Han,_San_Sai_District,_Chiang_Mai,_Thailand_-_panoramio.jpg">Fumihiko Ueno</a> · <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></figcaption></figure><figure><img loading="lazy" src="../img/07-two-big-lanterns.jpg" width="682" height="1047" alt="ปล่อยโคมใหญ่สองลูก เชียงใหม่ 2551"><figcaption>ปล่อยโคมใหญ่สองลูก เชียงใหม่ 2551 <a href="https://commons.wikimedia.org/wiki/File:Chiang_Mai,_Yi_Peng_Festival_1.jpg">Sweetpig1970</a> · Public domain</figcaption></figure><figure><img loading="lazy" src="../img/08-writing-a-wish.jpg" width="1200" height="900" alt="เขียนคำอธิษฐานบนกระดาษก่อนปล่อย 2559"><figcaption>เขียนคำอธิษฐานบนกระดาษก่อนปล่อย 2559 <a href="https://commons.wikimedia.org/wiki/File:Thailand_2016_(219_of_422)_(31987951110).jpg">Weldon Kennedy from London, UK</a> · <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a></figcaption></figure><figure><img loading="lazy" src="../img/09-khom-khwaen.jpg" width="900" height="1200" alt="โคมแขวน แขวนไว้กับเสา ไม่ได้ลอย เชียงใหม่ 2549"><figcaption>โคมแขวน แขวนไว้กับเสา ไม่ได้ลอย เชียงใหม่ 2549 <a href="https://commons.wikimedia.org/wiki/File:Khom_Khwaen.jpg">Lerdsuwa</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a></figcaption></figure></div></div></section>
+<section id="words" class="sec"><div class="in"><h2>คำศัพท์</h2><div class="glos"><div><b>โคมลอย</b><i>khom loi</i><p>โคมที่ลอยขึ้นฟ้า แบบกลางคืนที่มีไฟ</p></div><div><b>ยี่เป็ง</b><i>yi peng</i><p>วันเพ็ญเดือนยี่ของล้านนา</p></div><div><b>ว่าวไฟ</b><i>waao fai</i><p>คำล้านนา โคมมีไฟ ปล่อยกลางคืน</p></div><div><b>ว่าวฮม</b><i>waao hom</i><p>คำล้านนา โคมอัดควัน ปล่อยกลางวัน</p></div><div><b>โคมควัน</b><i>khom khwan</i><p>คำที่ใช้ตอนนี้แทนว่าวฮม</p></div><div><b>ลูกไฟ</b><i>luk fai</i><p>เชื้อเพลิงที่แขวนไว้กลางห่วง</p></div><div><b>เชื้อเพลิง</b><i>chuea phloeng</i><p>คำที่ประกาศราชการใช้</p></div><div><b>ปล่อยโคม</b><i>ploi khom</i><p>ปล่อยโคมขึ้นฟ้า</p></div><div><b>โคมแขวน</b><i>khom khwaen</i><p>โคมที่แขวนไว้กับเสา ไม่ลอย</p></div><div><b>โคมผัด</b><i>khom phat</i><p>โคมที่หมุนด้วยความร้อนจากไฟของมันเอง</p></div><div><b>ผางประทีป</b><i>phang prathip</i><p>ถ้วยดินเผาจุดไฟในวันยี่เป็ง</p></div><div><b>พระเกศแก้วจุฬามณี</b><i>phra ket kaeo chulamani</i><p>พระเกศาธาตุบนสวรรค์ชั้นดาวดึงส์</p></div></div></div></section>
+<section id="sources" class="sec"><div class="in"><h2>ที่มา</h2><p>ข้อมูลในหน้านี้มาจากที่เหล่านี้</p><ul class="src"><li><a href="https://ratchakitcha.soc.go.th/documents/2089971.pdf">Royal Gazette, Samut Sakhon province notice on lanterns (size and fuel limits), 14 Nov 2016</a></li><li><a href="https://mgronline.com/local/detail/9660000094022">MGR Online, Chiang Mai lantern limits and banned districts, 18 Oct 2023</a></li><li><a href="https://aip.caat.or.th/2026-11-24/html/eSUP/VT-eSUP-26-27-A-en-GB.html">Civil Aviation Authority of Thailand, AIP SUP A 27/26, Chiang Mai lantern hours, 24–25 Nov 2026</a></li><li><a href="https://aa.usno.navy.mil/api/moon/phases/year?year=2026">US Naval Observatory, moon phases 2026</a></li><li><a href="https://doi.org/10.31349/RevMexFisE.19.010206">Wattanakasiwich, Kongkhumbod &amp; Pussadee, Heating up a lantern with a tealight candle, Revista Mexicana de Física E 19, 2022 (Chiang Mai University)</a></li><li><a href="https://repository.tudelft.nl/file/File_b7cf8f82-8735-4a86-acdd-2c99d78d77ee">Schuurman &amp; Gransden, Sky Lantern Safety Flight Profile for Risk Assessment, AIAA 2017-3289 (TU Delft)</a></li><li><a href="https://www.tudelft.nl/en/ae/research/spotlight/fiery-romance-a-risk-model-for-sky-lanterns/">TU Delft Aerospace Engineering, Fiery romance: a risk model for sky lanterns</a></li><li><a href="https://library.payap.ac.th/webin/NTIC/Lanna%20custom/word/pd00012.pdf">Payap University Library, ประเพณียี่เป็ง (Lanna custom sheet)</a></li><li><a href="https://www.prd.go.th/th/content/category/detail/id/31/iid/510215">กรมประชาสัมพันธ์ (Government Public Relations Department), ยี่เป็ง, 13 Jun 2026</a></li><li><a href="https://www.silpa-mag.com/culture/article_4146">ศิลปวัฒนธรรม, why Lanna&#x27;s second month is central Thailand&#x27;s twelfth, 11 Nov 2019</a></li><li><a href="https://motwebservice.mot.go.th/motpublichearing/uploads/19-11-24_3439_89_2567%20AOT%20ย้ำเตือนอันตรายจากการปล่อยโคม.pdf">Airports of Thailand, press release 89/2567 on lanterns and the Air Navigation Act, 11 Nov 2024</a></li><li><a href="https://www.thaipbs.or.th/news/content/346239">Thai PBS, Chiang Mai approves 62,000 lanterns, 12 Nov 2024</a></li><li><a href="https://www.prachachat.net/economic/local-economy/news-1924154">Prachachat Turakij, Yi Peng 2025 figures, 23 Nov 2025</a></li><li><a href="https://www.thansettakij.com/business/tourism/642928">Thansettakij, Chiang Mai airport flight changes for Yi Peng 2025, 1 Nov 2025</a></li><li><a href="https://asianews.network/160-chiang-mai-flights-cancelled-or-rescheduled-to-avoid-flaming-lanterns">The Nation via Asia News Network, 160 Chiang Mai flights cancelled or rescheduled, 24 Nov 2023</a></li><li><a href="https://www.matichon.co.th/local/news_354114">Matichon, lanterns collected inside Chiang Mai airport 2013–2015, 9 Nov 2016</a></li><li><a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors (ODbL), map data via Protomaps</a></li></ul></div></section>
+</main><footer class="bot"><div class="in">โคมลอย วาดด้วยคณิต · ข้อความ CC BY 4.0 · โค้ด MIT · แผนที่ © OpenStreetMap contributors · <a href="https://github.com/NaNoBotCo/khom-loi">GitHub</a> · <a href="https://motdang.net/">motdang.net</a> · <a href="https://hongdam.net/">hongdam.net</a></div></footer>
+<script>window.UI={"spare": "เหลือ", "short": "ขาด", "l_lift": "แรงยก", "l_weight": "น้ำหนัก", "f_char": "กระดาษไหม้เกรียม", "f_never": "หนักเกินไป ไม่หลุดจากมือเลย", "compass": ["เหนือ", "ตะวันออกเฉียงเหนือ", "ตะวันออก", "ตะวันออกเฉียงใต้", "ใต้", "ตะวันตกเฉียงใต้", "ตะวันตก", "ตะวันตกเฉียงเหนือ"], "sites": [{"name": "ประตูท่าแพ", "lat": 18.7877, "lng": 98.9932}, {"name": "ใกล้แม่โจ้ สันทราย", "lat": 18.896, "lng": 99.012}], "map_labels": [[18.7877, 98.9932, "ประตูท่าแพ"], [18.7668, 98.9626, "สนามบิน"], [18.8035, 99.0075, "แม่น้ำปิง"]], "lang": "th"};</script>
+<script src="../lantern.js"></script><script src="../app.js"></script><script src="../top.js"></script>
+</body></html>
