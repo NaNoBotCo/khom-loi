@@ -142,6 +142,10 @@ html.card .lede{display:none}
 .sib:hover{border-color:var(--lamp)}
 .hero-t .hint{font-size:15px;opacity:.85;margin-top:.6em;text-shadow:0 1px 8px #000}
 html.card .hint{display:none}
+.tix{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:12px 0;font-size:15px}
+.tix a{border:1.5px solid currentColor;border-radius:999px;padding:5px 12px;min-height:34px;display:inline-flex;align-items:center}
+.tix small{flex:1 1 100%;font-size:13px;color:var(--mute)}
+.rock .tix small,.dark .tix small{color:var(--dim)}
 </style>
 </head><body>
 <header class="top"><div class="in"><a class="brand" href="#top"><img src="../icon.svg" width="28" height="28" alt=""><span>โคมลอย วาดด้วยคณิต</span></a>
@@ -165,6 +169,7 @@ html.card .hint{display:none}
 <div class="readout"><div><span>ต้องจับไว้</span><b id="fhold">–</b></div><div><span>สูงสุด</span><b id="ftop">–</b></div><div><span>อยู่บนฟ้า</span><b id="faloft">–</b></div><div><span>ข้างในร้อนสุด</span><b id="fhot">–</b></div></div>
 <p>ทุก ๆ เสี้ยววินาที หน้านี้คิดสี่อย่าง เชื้อเพลิงไหม้ไปเท่าไร ความร้อนอยู่ข้างในเท่าไร อากาศดันขึ้นแรงแค่ไหน และโคมเคลื่อนเร็วแค่ไหนเมื่อมีแรงต้านของอากาศ เชื้อเพลิงสองเท่า ลอยได้นานราวสองเท่า โคมเล็กที่ใช้ไฟเท่ากัน ข้างในจะร้อนกว่า</p><p class="note">เที่ยวบินนี้เป็นแบบจำลองของหน้านี้เอง ทำแบบเดียวกับแบบจำลองโคมลอยของ TU Delft ปี 2560 แรงยกจากความหนาแน่นอากาศที่ต่างกัน อากาศบางลงตามความสูง เชื้อเพลิงไหม้ในอัตราคงที่ แล้วตกลงด้วยความเร็วที่แรงต้านอากาศเท่ากับน้ำหนัก อัตราไหม้มาจากเวลาที่ TU Delft จับได้ (100–330 วินาที) และเกณฑ์ตามกฎหมาย 55 กรัม 8 นาที ส่วนความร้อนที่เก็บไว้ข้างในและที่หายไปทางกระดาษเป็นค่าที่ตั้งเอง เทียบดู ผู้ตรวจของเนเธอร์แลนด์ดูโคม 10 ดวงในปี 2552 ลอยอยู่ 2–5 นาที สูง 50–300 เมตร ตกห่างออกไป 633–1,900 เมตร</p></div></section>
 <section id="drift" class="sec rock"><div class="in"><p class="kick">ไปตกที่ไหน</p><h2>ลมเป็นคนเลือก</h2><p>โคมลอยไม่มีพวงมาลัย ลมไปทางไหนมันก็ไปทางนั้น และลมข้างบนพัดแรงกว่าลมริมน้ำ นี่คือโคมสี่สิบดวงจากที่เดียวกัน แต่ละดวงต่างกันนิดหน่อย งานปล่อยโคมใหญ่ที่ขายบัตรอยู่แถวแม่โจ้ สันทราย</p>
+<div class="tix"><b>บัตร</b><a href="https://klook.tpx.li/cTRLZEBu" rel="sponsored nofollow noopener" target="_blank">บัตรงานปล่อยโคม</a><a href="https://klook.tpx.li/X5AN2CuW" rel="sponsored nofollow noopener" target="_blank">ทัวร์และบัตรในเชียงใหม่</a><small>ลิงก์มีค่าตอบแทน: มดแดงได้ค่าแนะนำเมื่อคุณจองผ่านลิงก์เหล่านี้</small></div>
 <div class="seg" role="group" aria-label="ปล่อยจาก"><button class="pill" type="button" data-site="0" aria-pressed="true">ประตูท่าแพ</button><button class="pill" type="button" data-site="1" aria-pressed="false">ใกล้แม่โจ้ สันทราย</button></div>
 <canvas id="driftcv" class="cv" data-map="../map.json" role="img" aria-label="ลมเป็นคนเลือก"></canvas>
 <p class="legend"><span><i style="background:#7a3d12"></i>ตกบนพื้น</span><span><i style="background:#1f6fb5"></i>ตกในน้ำ</span><span><i style="background:#c0262d"></i>ตกในสนามบิน</span></p>
