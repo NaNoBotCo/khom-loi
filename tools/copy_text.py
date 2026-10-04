@@ -72,6 +72,9 @@ UI["en"].update({
     "dr_p": [
         "A lantern has no steering. It goes where the air goes, and the air higher up moves faster than the air by the river. Here are forty lanterns from one place, each a little different. The big ticketed releases are out near Mae Jo in San Sai.",
     ],
+    "tix_h": "Tickets",
+    "tix": [("Lantern-night tickets", "https://klook.tpx.li/cTRLZEBu"), ("Chiang Mai tickets & tours", "https://klook.tpx.li/X5AN2CuW")],
+    "tix_note": "Paid links: Mot Dang earns a fee if you book.",
     "dr_site": "Let go from",
     "d_from": "Wind from", "d_speed": "Wind near the ground", "d_go": "Let 40 go",
     "d_med": "Half land within", "d_far": "Farthest", "d_air": "On the airport", "d_wat": "In the water",
@@ -136,6 +139,9 @@ UI["th"].update({
     "dr_p": [
         "โคมลอยไม่มีพวงมาลัย ลมไปทางไหนมันก็ไปทางนั้น และลมข้างบนพัดแรงกว่าลมริมน้ำ นี่คือโคมสี่สิบดวงจากที่เดียวกัน แต่ละดวงต่างกันนิดหน่อย งานปล่อยโคมใหญ่ที่ขายบัตรอยู่แถวแม่โจ้ สันทราย",
     ],
+    "tix_h": "บัตร",
+    "tix": [("บัตรงานปล่อยโคม", "https://klook.tpx.li/cTRLZEBu"), ("ทัวร์และบัตรในเชียงใหม่", "https://klook.tpx.li/X5AN2CuW")],
+    "tix_note": "ลิงก์มีค่าตอบแทน: มดแดงได้ค่าแนะนำเมื่อคุณจองผ่านลิงก์เหล่านี้",
     "dr_site": "ปล่อยจาก",
     "d_from": "ลมพัดมาจาก", "d_speed": "ลมใกล้พื้น", "d_go": "ปล่อย 40 ดวง",
     "d_med": "ครึ่งหนึ่งตกภายใน", "d_far": "ไกลสุด", "d_air": "ตกในสนามบิน", "d_wat": "ตกในน้ำ",

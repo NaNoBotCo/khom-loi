@@ -98,7 +98,10 @@ def page(lang, md=False):
 {paras(u["fl_p2"])}<p class="note">{u["fl_note"]}</p></div></section>
 '''
     sites = "".join(f'<button class="pill" type="button" data-site="{i}" aria-pressed="{"true" if i == 0 else "false"}">{E(s["name"])}</button>' for i, s in enumerate(u["sites"]))
+    tix = "".join(f'<a href="{E(h)}" rel="sponsored nofollow noopener" target="_blank">{E(t)}</a>' for t, h in u["tix"])
+    tix = f'<div class="tix"><b>{E(u["tix_h"])}</b>{tix}<small>{E(u["tix_note"])}</small></div>'
     drift = f'''<section id="drift" class="sec rock"><div class="in"><p class="kick">{E(u["dr_kick"])}</p><h2>{E(u["dr_h"])}</h2>{paras(u["dr_p"])}
+{tix}
 <div class="seg" role="group" aria-label="{E(u["dr_site"])}">{sites}</div>
 <canvas id="driftcv" class="cv" data-map="{root}map.json" role="img" aria-label="{E(u["dr_h"])}"></canvas>
 <p class="legend"><span><i style="background:#7a3d12"></i>{E(u["dr_land"])}</span><span><i style="background:#1f6fb5"></i>{E(u["dr_water"])}</span><span><i style="background:#c0262d"></i>{E(u["dr_air"])}</span></p>

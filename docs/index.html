@@ -142,6 +142,10 @@ html.card .lede{display:none}
 .sib:hover{border-color:var(--lamp)}
 .hero-t .hint{font-size:15px;opacity:.85;margin-top:.6em;text-shadow:0 1px 8px #000}
 html.card .hint{display:none}
+.tix{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin:12px 0;font-size:15px}
+.tix a{border:1.5px solid currentColor;border-radius:999px;padding:5px 12px;min-height:34px;display:inline-flex;align-items:center}
+.tix small{flex:1 1 100%;font-size:13px;color:var(--mute)}
+.rock .tix small,.dark .tix small{color:var(--dim)}
 </style>
 </head><body>
 <header class="top"><div class="in"><a class="brand" href="#top"><img src="icon.svg" width="28" height="28" alt=""><span>Khom Loi, Drawn</span></a>
@@ -165,6 +169,7 @@ html.card .hint{display:none}
 <div class="readout"><div><span>You hold it for</span><b id="fhold">–</b></div><div><span>Highest</span><b id="ftop">–</b></div><div><span>In the air</span><b id="faloft">–</b></div><div><span>Hottest inside</span><b id="fhot">–</b></div></div>
 <p>Every quarter of a second the page works out four things: how much fuel burned, how much of its heat stayed in the air inside, how hard the night air pushes up, and how fast the lantern moves against the drag of the air. Twice the fuel flies about twice as long. A smaller lantern with the same fire runs hotter inside.</p><p class="note">This flight is the page's own model, built the way TU Delft's 2017 sky-lantern model is: lift from the difference in air density, air thinning with height, fuel burning down at a steady rate, then a fall at the speed where drag matches weight. The burn rate comes from TU Delft's timed burns (100–330 s) and the 55 g, 8 minute legal limit. The share of heat kept inside and the heat lost through the paper are tuned guesses. For comparison, Dutch inspectors watched ten lanterns in 2009: 2 to 5 minutes up, 50 to 300 m high, landing 633 to 1,900 m away.</p></div></section>
 <section id="drift" class="sec rock"><div class="in"><p class="kick">Where it lands</p><h2>The wind decides</h2><p>A lantern has no steering. It goes where the air goes, and the air higher up moves faster than the air by the river. Here are forty lanterns from one place, each a little different. The big ticketed releases are out near Mae Jo in San Sai.</p>
+<div class="tix"><b>Tickets</b><a href="https://klook.tpx.li/cTRLZEBu" rel="sponsored nofollow noopener" target="_blank">Lantern-night tickets</a><a href="https://klook.tpx.li/X5AN2CuW" rel="sponsored nofollow noopener" target="_blank">Chiang Mai tickets &amp; tours</a><small>Paid links: Mot Dang earns a fee if you book.</small></div>
 <div class="seg" role="group" aria-label="Let go from"><button class="pill" type="button" data-site="0" aria-pressed="true">Tha Phae Gate</button><button class="pill" type="button" data-site="1" aria-pressed="false">Near Mae Jo, San Sai</button></div>
 <canvas id="driftcv" class="cv" data-map="map.json" role="img" aria-label="The wind decides"></canvas>
 <p class="legend"><span><i style="background:#7a3d12"></i>came down on land</span><span><i style="background:#1f6fb5"></i>in water</span><span><i style="background:#c0262d"></i>on the airport</span></p>
