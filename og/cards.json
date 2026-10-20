@@ -1,0 +1,10 @@
+{
+ "./": {
+  "alt": "Card: Khom Loi, Drawn",
+  "image": "og/index.jpg"
+ },
+ "th/": {
+  "alt": "Card: โคมลอย วาดด้วยคณิต, Khom Loi, Drawn",
+  "image": "og/th.jpg"
+ }
+}
